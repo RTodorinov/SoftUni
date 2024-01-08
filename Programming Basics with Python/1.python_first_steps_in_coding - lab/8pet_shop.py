@@ -1,0 +1,6 @@
+dog_food = float(2.50)
+cat_food = float(4)
+number_of_dog_packets = int(input())
+number_of_cat_packets = int(input())
+last_bill = (dog_food * number_of_dog_packets) + (cat_food * number_of_cat_packets)
+print(f"{last_bill} lv.")
