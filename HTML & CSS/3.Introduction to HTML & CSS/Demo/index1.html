@@ -5,19 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML Document</title>
     <style>
-        /* Type selectors */
-
+        /* Type Selectors */
+        h1 {
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p {
+            text-decoration: underline;
+        }
+        /* Class Selectors */
+        .warning {
+            color: red;
+        }
+        .read-more {
+            color: orange;
+        }
+        /* ID Selectors */
+        #element {
+            border: 2px solid rgb(210, 30, 30);
+        }
+        /* CSS Combinator - Descendant */
+        article p {
+            text-align: justify;
+        }
+        article header h3 {
+            text-align: justify;
+        }
+        /* CSS Combinator - Direct Descendant / Chield */
+        ul > li {
+            
+        }
     </style>
 </head>
 <body>
 
-    <h1 style= color:blue; class ="header warning fancy">My Document Heading</h1>
+    <h1>My Document Heading</h1>
 
-    <p id="paragraph">My first paragraph goes here</p>
+    <p>My first paragraph goes here</p>
     
-    <p style= color:blue;>My second paragraph goes here</p>
+    <p>My second paragraph goes here</p>
 
-    <p class ="warning";>My new warning paragraph goes here</p>
+    <p>My new warning paragraph goes here</p>
 
     <h2>Heading level 2</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea debitis quos ducimus minima dolor odit animi explicabo eum, alias dolorum placeat rem nam suscipit facere exercitationem culpa harum? Placeat?</p>
@@ -30,7 +58,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea debitis quos ducimus minima dolor odit animi explicabo eum, alias dolorum placeat rem nam suscipit facere exercitationem culpa harum? Placeat?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea debitis quos ducimus minima dolor odit animi explicabo eum, alias dolorum placeat rem nam suscipit facere exercitationem culpa harum? Placeat?</p>
 
-    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea debitis quos ducimus minima dolor odit animi explicabo eum, alias dolorum placeat rem nam suscipit facere exercitationem culpa harum? Placeat?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ea debitis quos ducimus minima dolor odit animi explicabo eum, alias dolorum placeat rem nam suscipit facere exercitationem culpa harum? Placeat?</p>
 
