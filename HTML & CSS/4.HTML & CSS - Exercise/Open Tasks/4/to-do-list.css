@@ -1,6 +1,10 @@
+.my-list {
+    margin: 12px;
+
+}
 p {
-    text-align: left;
+    text-align: center;
 }
 body {
-    background-color: yellow;
+    background-color: #f7f381
 }
