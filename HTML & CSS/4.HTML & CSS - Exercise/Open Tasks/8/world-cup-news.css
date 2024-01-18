@@ -2,7 +2,7 @@
     width: 700px;
     height: 730px;
     border: 1px solid #000000;
-    align-content: center;
+    margin: 0 auto; /* центрира контейнера */
     padding: 10px 20px;
     background-color: #a6e1ec;
 }
