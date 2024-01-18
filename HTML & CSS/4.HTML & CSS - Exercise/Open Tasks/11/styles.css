@@ -1,0 +1,23 @@
+body {
+    background: #f9f7cf;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 480px;
+}
+header {
+    background: #f2dcbb;   
+    height: 110px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    
+}
+footer {
+    background: #f2dcbb;
+    height: 110px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    
+}
