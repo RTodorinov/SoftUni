@@ -1,6 +1,24 @@
-body {
+/* body {
     background: #ccc;
-}
-.site-header {
+} */
+/* .site-header {
     border-bottom: 2px solid #000;
+} */
+html {
+    /* font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif; */
+
+     font: 16px/1.5 Arial, Helvetica, sans-serif; /* this is short-hand for above*/
+}
+body, table, input {
+    font: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.site {
+    max-width: 66ch;
+    margin: 0 auto;
 }
