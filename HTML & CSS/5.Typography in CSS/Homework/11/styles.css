@@ -8,6 +8,6 @@
     color: black;
     cursor: pointer;
   }
-button:active {
+.joinBtn:active {
     background: blue;
 }
