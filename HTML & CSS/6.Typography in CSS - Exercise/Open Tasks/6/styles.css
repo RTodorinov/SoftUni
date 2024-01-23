@@ -1,5 +1,7 @@
 body {
-    font: 18px/1.5 Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
     background-color: white;
 }
 article {
@@ -11,5 +13,5 @@ article {
     text-indent: 40px;
 }
 h1 {
-    font: Georgia, serif;
+    font-family: Georgia, serif;
 }
