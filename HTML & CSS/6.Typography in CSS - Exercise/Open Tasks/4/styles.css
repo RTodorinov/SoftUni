@@ -1,7 +1,8 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 html {
-    font: 16px/1.5 'FontAwesome'
+    font: 16px/1.5 'FontAwesome';
+    background: rgb(251, 251, 251);
 }
 
 body, button, input {
@@ -29,7 +30,13 @@ body, button, input {
     margin-right: 0.5em;
 }
 
-.button:hover {
+button:hover {
+    background-color: white;   
+    border-color: rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+}
+
+.button:hover.fill {
     background: rgb(0, 102, 0);
     border-color: rgb(0, 102, 0);
     color: rgb(251, 251, 251);
