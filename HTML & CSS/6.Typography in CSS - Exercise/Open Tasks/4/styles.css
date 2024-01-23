@@ -1,4 +1,3 @@
-/*трябва да се донагласи още за да прилича на .gif файла от ресурсите*/
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 html {
@@ -32,13 +31,13 @@ body, button, input {
     margin-right: 0.5em;
 }
 
-button:hover {
+.button.hover:hover {
     background-color: white;   
     border-color: rgb(0, 102, 0);
     color: rgb(0, 102, 0);
 }
 
-.button:hover.fill {
+.button.hover.fill:hover {
     background: rgb(0, 102, 0);
     border-color: rgb(0, 102, 0);
     color: rgb(251, 251, 251);
