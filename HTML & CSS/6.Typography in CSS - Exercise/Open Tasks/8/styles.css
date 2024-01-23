@@ -51,3 +51,19 @@ i {
 .button.delete:hover {
     background-color: #892119;
 }
+
+ol.todo {
+    margin-top: 3em;
+}
+
+ol.todo li {
+    display: block;
+    list-style: none outside;
+}
+
+ol.todo li:before {
+    display: inline-block;
+    content: '\f192';
+    font-family: "Font Awesome 6 Free";
+    margin-right: 1em;
+}
