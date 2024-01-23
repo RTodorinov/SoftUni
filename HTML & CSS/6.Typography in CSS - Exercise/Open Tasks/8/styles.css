@@ -65,5 +65,10 @@ ol.todo li:before {
     display: inline-block;
     content: '\f192';
     font-family: "Font Awesome 6 Free";
-    margin-right: 1em;
+    margin-right: 0.5em;
+    opacity: 0.5;
+}
+
+ol.todo li.done:before {
+    content: '\f14a';
 }
