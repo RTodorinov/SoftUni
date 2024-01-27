@@ -1,0 +1,27 @@
+main {
+    width: 900px;
+    height: 140px;
+}
+
+img.align-left {
+    border: solid #d1d1d1;
+    border-width: 0 1px 1px 0;
+    float: left;
+    margin: 0 1em 1em 0;
+    padding: 0 1em 1em 0;
+}
+
+img.align-right {
+    border: solid #d1d1d1;
+    border-width: 1px 0 1px 1px;
+    float: right;
+    margin: 1em 0 1em 1em;
+    padding: 1em 0 1em 1em;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e2e2e;
+    text-align: justify;
+}
