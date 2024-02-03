@@ -1,12 +1,10 @@
-
 main {
     width: 700px;
     height: 500;
-    margin: 60px;
-    padding: 2em 1em;
+    margin: 60px;  
 }
 
-.new {
+img.new {
     position: relative;
     top: -200px;
     right: 150px;
