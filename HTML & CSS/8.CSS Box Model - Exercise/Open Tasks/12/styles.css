@@ -1,0 +1,101 @@
+
+body {
+    font: 14px/1.5 Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(238, 238, 238);
+    padding: 8em;
+}
+
+header p, header ul, header li {
+    display: inline-block;
+}
+
+header {
+    border-bottom: solid 0.15em black;
+    padding-bottom: 0.5em;
+    position: relative;
+}
+header p {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    position:absolute;
+    right: 0;
+    top: 30%;
+}
+header ul li a {
+    margin-left: 3em;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+h1, h2, h3 {
+    font: 2em/1.2 Georgia, serif;
+    font-weight: 400;
+}
+main, aside {
+    display: inline-block;
+}
+main {
+    width: 70%;
+    margin-right: 5em;
+}
+
+aside {
+    vertical-align: top;
+}
+main article img.first-image {
+    float: right;
+    margin-left: 1em;
+}
+main article.second-article {
+    margin-top: 3em;
+}
+
+main article.second-article p.before-blockquote {
+    width: 40%;
+    display: inline-block;
+}
+main article.second-article .section-with-blockquote {
+    position: relative;
+}
+main article.second-article .section-with-blockquote >p {
+    padding-right: 2em;
+    border-right: solid 0.5em rgb(220, 219, 219);
+}
+blockquote {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+}
+blockquote p {
+    margin-top: 0;
+}
+blockquote p.author-name {
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
+main article.third-article {
+    margin-top: 3em;
+}
+main article section > img {
+    background-color: rgb(255, 255, 255);
+    border: solid 0.2em #000;
+    padding: 1em;
+}
+main article.third-article img {
+    float: left;
+    width: 10em;
+    height: auto;
+    margin-right: 2em;
+    margin-bottom: 1em;  
+}
