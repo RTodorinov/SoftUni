@@ -22,10 +22,15 @@
             position: absolute;
             top: 100%;
             left: 0;
-            padding: 0.1em 0;
+            padding: 0.1em;
+        }
+        nav ul ul ul {
+            top: 0;
+            left: 100%;
+            margin-top: -0.1em;
         }
         nav ul ul li {
-            padding: 0.1em 0;
+            padding: 0.1em;
         }
         nav > ul > li {
             display:inline-block;
@@ -45,6 +50,7 @@
             padding: 0.5em 1em;
             border-radius: 0.3em;    
         }
+        nav li:hover > a,
         nav a:hover {
             background-color: #69A;
         }
@@ -59,7 +65,21 @@
                 <a href="#">Products</a>
                 <ul>
                     <li><a href="#">Gadgets</a></li>
-                    <li><a href="#">Stuff</a></li>
+                    <li><a href="#">Stuff</a>
+                        <ul>
+                            <li><a href="#">Gadgets</a></li>
+                            <li><a href="#">Stuff</a>
+                                <ul>
+                                    <li><a href="#">Gadgets</a></li>
+                                    <li><a href="#">Stuff</a></li>
+                                    <li><a href="#">Things</a></li>
+                                    <li><a href="#">Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Things</a></li>
+                            <li><a href="#">Cards</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Things</a></li>
                     <li><a href="#">Cards</a></li>
                 </ul>
