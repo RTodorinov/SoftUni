@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside Hack</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .site {
+            max-width: 40em;
+            margin: 2em auto;
+            padding: 2em;
+            border: 2px solid black;
+        }
+
+        main, aside {
+            width: 50%;
+            display: inline-block;
+            border: 2px solid darkgreen;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="site">
+
+        <main>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Eligendi rerum quos, doloremque maxime magnam perspiciatis? Voluptatibus inventore quibusdam ad velit, accusamus minima reprehenderit, accusantium nihil officia itaque, commodi repudiandae maiores.</p>
+            <p>Nihil facilis eaque, architecto explicabo cumque voluptatem, at quis ullam dolorum voluptatibus magni ex inventore.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <p>Eligendi rerum quos, doloremque maxime magnam perspiciatis? </p>
+            <p>Itaque architecto quisquam laboriosam adipisci tempora sed. </p>
+            <p>Eaque optio tenetur aperiam fuga distinctio maxime maiores nemo magnam dolor, quis, quae molestias velit tempora ex minus facere est corrupti soluta?</p>
+            <p>Voluptatibus inventore quibusdam ad velit, accusamus minima reprehenderit, accusantium nihil officia itaque, commodi repudiandae maiores.</p>
+        </main><!--
+        --><aside>
+            <h3>Panel Header</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </aside>
+    </div>
+</body>
+</html>
