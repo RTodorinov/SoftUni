@@ -4,10 +4,8 @@ Mobile first is aditive not substractive.
 
 */
 /* Default, No media Query - Phone and up */
-@media (max-width: 425px) {
-    div {
-        flex-direction: column;
-    }
+body {
+    
 }
 
 /* 600px and up - Tablet */
