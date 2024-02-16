@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Chillhop</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html {
+    font: 14px/1.5 Helvetica, sans-serif;
+    }
+    body {
+        padding: 2em;
+    }
+    img {
+        display: block;
+        width: 100%;
+        height: 100%; /*auto*/
+    }
+    article {
+        display: flex;
+        gap: 2em;
+        max-width: 840px;
+        margin: 0 auto;
+        border: 4px solid #000;
+        border-radius: 10px;
+        padding: 1.8em;
+        background: #6fb3f6;
+    }
+    article .content {
+        flex: 1 1 auto;
+    }
+    article .media {
+        flex: 0 0 290px;
+    }
+    article header {
+        padding-bottom: 2em;
+    }
+    article header p {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 2.66em;
+    }
+
+    article h1 {
+        color: white;
+        line-height: 1;
+        font-size: 2.2em;
+        font-weight: normal;
+    }
+
+    article section p {
+        text-indent: 4em;
+        line-height: 2;
+        padding-bottom: 1.5em;
+    }
+
+    article .buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    article .button {
+        display: block;
+        padding: 5px 15px;
+        border: 2px solid #000;
+        border-radius: 4px;
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    article .button.primary {
+        background: rgb(255, 79, 126);
+        color: white;
+    }
+    </style>
+</head>
+<body>
+
+    <article>
+        <div class="content">
+            <header>
+                <p>Raccoon Journal Entry</p>
+                <h1>Chillhop Essentials - Winter 2023</h1>
+            </header>
+
+            <section>
+                <p>We introduce to you the first Chillhop Essentials of 2023 with our Spring release: a 26 song compilation available on purple double vinyl. The seasonal release comes complete with an immersive playground for our Raccoon to roam. With all art handled by illustrator/animator Rafael Araújo, the Essentials 2020 universe shows that anything is possible. Follow along and help us explore.</p>
+                <div class="buttons">
+                    <a href="#" class="button primary">Contact Sales</a>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </section>
+        </div>
+        <div class="media">
+            <img src="./image/img.jpg" alt="picture">
+        </div>
+    </article>
+
+</body>
+</html>
