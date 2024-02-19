@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+font: 14px/1.5 'Inter', sans-serif;
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%; /*auto*/
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 3em;
+    max-width: 840px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 3.8em 1.8em;
+    background: #85dcff;
+}
+
+article .content {
+    flex: 1 1 auto;
+}
+
+article .media {
+    flex: 0 0 290px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+article header {
+    padding-bottom: 2em;
+}
+
+article header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2.66em;
+}
+
+article h1 {
+    color: black;
+    line-height: 1em;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+article section p {
+    font-size: 12px;
+    line-height: 1em;
+    padding-bottom: 1.5em;
+}
+
+article .buttons {
+    display: flex;
+    justify-content:flex-start;
+    gap: 0.8em;
+}
+
+article .button {
+    background: white;
+    display: block;
+    padding: 7px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+article .button.primary {
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    background: #42aa59;
+    color: black;
+}
+
+article .button.primary:hover {
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    background: black;
+    color: white;
+}
