@@ -6,4 +6,4 @@ function solve(number) {
     }
 }
 
-solve(4.35)
+solve(4.35);

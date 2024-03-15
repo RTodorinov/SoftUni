@@ -26,6 +26,7 @@ function solve(age) {
     } else {
         result = 'out of bounds';
     }
+    console.log(result)
 }
 
 solve(20);
