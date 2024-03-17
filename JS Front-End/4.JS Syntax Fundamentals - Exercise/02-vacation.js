@@ -13,7 +13,7 @@ function solve(count, type, day) {
                 singlePrice = 15;
                 break;
         }
-    } if (day === 'Saturday') {
+    } else if (day === 'Saturday') {
             switch (type) {
                 case 'Students':
                     singlePrice = 9.80;
@@ -25,7 +25,7 @@ function solve(count, type, day) {
                     singlePrice = 20;
                     break;
         }
-    } if (day === 'Sunday') {
+    } else if (day === 'Sunday') {
             switch (type) {
                 case 'Students':
                     singlePrice = 10.46;
@@ -38,7 +38,20 @@ function solve(count, type, day) {
                         break;
             }
     }
+
+    let totalPrice = singlePrice * count;
+
+    if (type === 'Students' && count >= 30) {
+        totalPrice = totalPrice * 0.85; // totalPrice *= 0.85;
+    } else if (type === 'Business' && count >= 100) {
+        totalPrice = totalPrice - singlePrice * 10; // totalPrice -= singlePrice * 10;
+    } else if (type === 'Regular' && count >= 10 && count <= 20) {
+        totalPrice *= 0.95;
+    }
+
+    console.log(`Total price: ${totalPrice.toFixed(2)}`)
 }
 
 
 solve(30, 'Students', 'Sunday')
+solve(40, "Regular", "Saturday")
