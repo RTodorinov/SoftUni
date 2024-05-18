@@ -18,3 +18,4 @@ VALUES
 SELECT 
 	(customer_address).street
 FROM customers;
+-- Създаване на Type адрес и изваждане на специфична информация за customer в случая за street 

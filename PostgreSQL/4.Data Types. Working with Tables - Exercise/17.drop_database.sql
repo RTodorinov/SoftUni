@@ -1,2 +1,2 @@
 DROP DATABASE minions_db WITH (FORCE);
--- disonnect from db before running
+-- disconnect from db before running
