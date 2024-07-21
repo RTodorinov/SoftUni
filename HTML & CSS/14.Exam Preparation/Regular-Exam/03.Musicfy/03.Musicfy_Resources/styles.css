@@ -1,0 +1,177 @@
+/* existing styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.plans {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.plan {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.try-free {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #00b200;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.pricing span {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.payment {
+    margin-bottom: 50px;
+}
+
+.payment h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.payment ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.dogopal-logo img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.difference {
+    text-align: center;
+}
+
+.difference h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.difference p {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* alternating row colors */
+tbody tr:nth-child(odd) {
+    background-color: #f0f0f0; /* gray */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d0ffd0; /* light green */
+}
+
+.check {
+    color: green;
+}
+
+.cross {
+    color: red;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}

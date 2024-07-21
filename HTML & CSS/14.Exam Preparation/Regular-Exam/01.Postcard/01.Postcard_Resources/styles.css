@@ -1,0 +1,62 @@
+body {
+    font-family: 'Gochi Hand', cursive;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.postcard {
+    position:relative;
+}
+
+.postcard-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    left: 10%;
+}
+
+.message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.message h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.message p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.address {
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 35px;
+}
+
+.address p {
+    margin: 5px 0;
+}
