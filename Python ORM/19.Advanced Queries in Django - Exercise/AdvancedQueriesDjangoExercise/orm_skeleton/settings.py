@@ -85,13 +85,14 @@ WSGI_APPLICATION = 'orm_skeleton.wsgi.application'
 DATABASES = {
      "default": {
          "ENGINE": "django.db.backends.postgresql",
-         "NAME": "advanced_queries_django",
+         "NAME": "advanced_queries_django_exercise",
          "USER": "postgres",
          "PASSWORD": "Zero",
          "HOST": "localhost",
          "PORT": "5432",
      }
 }
+
 
 
 # Password validation
